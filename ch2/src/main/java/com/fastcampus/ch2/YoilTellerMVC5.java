@@ -10,37 +10,42 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class YoilTellerMVC {
+public class YoilTellerMVC5 {
 	@ExceptionHandler(Exception.class)
 	public String catcher(Exception ex) {
 		ex.printStackTrace();
 		return "yoilError";
 	}
 	
-	@RequestMapping("/getYoilMVC")
-	//public void main(HttpServletRequest request, HttpServletResponse response) throws IOException {
-	public String main(@RequestParam(required=true) int year,
-			@RequestParam(required=true)int month, 
-			@RequestParam(required=true)int day, Model m) throws IOException {
+	@RequestMapping("/getYoilMVC5")
+	public String main(@ModelAttribute MyDate date, Model model) throws IOException {
 		// 1. 유효성 검사
-		if(!isValid(year, month, day)) {
+		if(!isValid(date)) {
 			return "yoilError";
 		}
 		
 		// 2. 요일 계산
-		char yoil = getYoil(year, month, day);
+		//char yoil = getYoil(date);
 		
 		// 3. 계산한 결과를 model에 저장
-		m.addAttribute("year", year);
-		m.addAttribute("month", month);
-		m.addAttribute("day", day);
-		m.addAttribute("yoil", yoil);
+		//model.addAttribute("myDate", date);
+		
+		//model.addAttribute("yoil", yoil);
 		
 		return "yoil"; // /WEB-INF/views/yoil.jsp => Model
+	}
+
+	private boolean isValid(MyDate date) {
+		return isValid(date.getYear(), date.getMonth(), date.getDay());
+	}
+
+	private @ModelAttribute("yoil") char getYoil(MyDate date) {
+		return getYoil(date.getYear(), date.getMonth(), date.getDay());
 	}
 
 	private boolean isValid(int year, int month, int day) {
