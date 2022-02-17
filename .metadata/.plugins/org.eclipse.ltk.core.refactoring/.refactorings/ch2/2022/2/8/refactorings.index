@@ -6,3 +6,6 @@
 1645104443205	Copy compilation unit
 1645105689283	Copy compilation unit
 1645106081710	Copy compilation unit
+1645109798265	Move 'registerForm.html' to 'views'
+1645109832430	Rename resource 'registerForm.html'
+1645110318694	Move 'registerInfo.jsp' to 'views'
