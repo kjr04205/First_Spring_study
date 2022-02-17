@@ -4,3 +4,7 @@
 - 원격 프로그램 AWS 배포 후 실행
 - HTTP 웹 통신
 - Spring MVC
+- 서블릿, JSP
+- @RequestParam, @ModelAttribute
+- @RequestMapping
+- JSP 회원가입 Form data -> Spring 컨트롤 변환
