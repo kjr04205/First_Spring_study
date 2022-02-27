@@ -8,3 +8,6 @@
 - @RequestParam, @ModelAttribute
 - @RequestMapping
 - JSP 회원가입 Form data -> Spring 컨트롤 변환
+- 페이지 쿠키관리 - 아이디 저장
+- 세션관리 - 로그인
+- 예외처리
