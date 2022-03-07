@@ -11,3 +11,6 @@
 - 페이지 쿠키관리 - 아이디 저장
 - 세션관리 - 로그인
 - 예외처리
+- DispatcherServlet / servlet-content.xml beans 등록
+- String -> Date 변환
+- 회원가입 입력값 수동검증, 자동검증
