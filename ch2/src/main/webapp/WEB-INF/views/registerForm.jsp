@@ -71,8 +71,10 @@
 </head>
 <body>
    <form method="post" action="<c:url value="/register/save"/>" onsubmit="return formCheck(this)">
+   
     <div class="title">Register</div>
-    <div id="msg" class="msg"> ${URLDecoder.decode(param.msg, "utf-8")} </div> 
+    <div id="msg" class="msg"> ${URLDecoder.decode(param.msg, "utf-8")} </div>
+    
     <label for="">아이디</label>
     <input class="input-field" type="text" name="id" placeholder="8~12자리의 영대소문자와 숫자 조합">
     <label for="">비밀번호</label>
