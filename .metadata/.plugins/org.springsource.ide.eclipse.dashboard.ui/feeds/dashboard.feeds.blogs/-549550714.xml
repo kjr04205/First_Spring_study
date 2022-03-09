@@ -5,7 +5,46 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-03-05T00:55:00Z</updated>
+  <updated>2022-03-08T17:00:00Z</updated>
+  <entry>
+    <title>This Week in Spring - March 8th, 2022</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/03/08/this-week-in-spring-march-8th-2022" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-03-08:4725</id>
+    <updated>2022-03-08T17:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! How&amp;rsquo;re you doin&amp;rsquo;? &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/03/03/a-bootiful-podcast-reactive-streams-cofounder-former-deputy-cto-at-lightbend-and-legend-viktor-klang"&gt;A Bootiful Podcast: Reactive Streams cofounder, former deputy CTO at Lightbend, and legend Viktor Klang&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/03/07/announcing-spring-cloud-stream-applications-2021-1-1-ga-release"&gt;Announcing Spring Cloud Stream Applications 2021.1.1 GA Release&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/@dhakresumitra5/graphql-with-spring-boot-java-d2fa3ca1b12c"&gt;GraphQL with Spring Boot java&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.oracle.com/javamagazine/post/the-hidden-gems-in-java-16-and-java-17-from-streammapmulti-to-hexformat"&gt;Hidden gems in Java 16 and Java 17, from Stream.mapMulti to HexFormat&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developer.okta.com/blog/2022/03/03/spring-native-jhipster"&gt;Introducing Spring Native for JHipster: Serverless Full-Stack Made Easy | Okta Developer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/content/webinars/mar-10-getting-started-with-spring-authorization-server"&gt;Mar 10 - Getting Started with Spring Authorization Server&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/03/04/spring-cloud-data-flow-2-10-0-m1-released"&gt;Spring Cloud Data Flow 2.10.0-M1 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published"&gt;Spring Cloud Gateway CVE reports published&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/03/04/spring-cloud-square-0-4-1-has-been-released"&gt;Spring Cloud Square 0.4.1 has been released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/03/02/spring-tips-reliable-database-migrations-with-liquibase-and-spring-boot"&gt;Spring Tips: Reliable Database Migrations with Liquibase and Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I&amp;rsquo;m proud to stand with Ukraine, and it&amp;rsquo;s nice to know my company is too: &lt;a href="https://news.vmware.com/releases/vmware-statement-regarding-ukraine"&gt;VMware Statement Regarding Ukraine ? VMware News and Stories&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Announcing Spring Cloud Stream Applications 2021.1.1 GA Release</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/03/07/announcing-spring-cloud-stream-applications-2021-1-1-ga-release" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Chris Bono</name>
+    </author>
+    <id>tag:spring.io,2022-03-07:4723</id>
+    <updated>2022-03-07T23:51:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I¡¯m happy to announce that Spring Cloud Stream Applications &lt;code&gt;2021.1.1&lt;/code&gt; has been released.&lt;/p&gt;
+&lt;p&gt;This release is based on Spring Boot &lt;code&gt;2.6.3&lt;/code&gt; and Spring Cloud &lt;code&gt;2021.0.1&lt;/code&gt; and contains many improvements and bug fixes - check out the &lt;a href="https://github.com/spring-cloud/stream-applications/releases/tag/v2021.1.1"&gt;release notes&lt;/a&gt; for more information.&lt;/p&gt;&lt;h2&gt;&lt;a href="#stay-in-touch-hellip" class="anchor" name="stay-in-touch-hellip"&gt;&lt;/a&gt;Stay in touch&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Please continue to engage with us by creating bug reports and feature requests on &lt;a href="https://github.com/spring-cloud/stream-applications"&gt;Github&lt;/a&gt; and asking questions on StackOverflow using the &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-stream"&gt;spring-cloud-stream&lt;/a&gt; or &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-dataflow"&gt;spring-cloud-dataflow&lt;/a&gt; tags.&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Data Flow 2.10.0-M1 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2022/03/04/spring-cloud-data-flow-2-10-0-m1-released" />
@@ -566,231 +605,6 @@ So finding a solution with better usability while limiting the breakage caused b
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security/reference/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security 5.5.5 and 5.6.2 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/02/21/spring-security-5-5-5-and-5-6-2-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Eleftheria Stein-Kousathana</name>
-    </author>
-    <id>tag:spring.io,2022-02-21:4705</id>
-    <updated>2022-02-21T15:00:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community, I&amp;#8217;m pleased to announce the release of Spring Security 5.5.5 (&lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.5.5"&gt;release notes&lt;/a&gt;) and Spring Security 5.6.2 (&lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.6.2"&gt;release notes&lt;/a&gt;). These releases deliver bug fixes along with some minor improvements. Users are encouraged to update to the latest patch release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security/reference/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security without the WebSecurityConfigurerAdapter</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Eleftheria Stein-Kousathana</name>
-    </author>
-    <id>tag:spring.io,2022-02-09:4694</id>
-    <updated>2022-02-21T15:00:00Z</updated>
-    <content type="html">&lt;p&gt;In Spring Security 5.7.0-M2 we &lt;a href="https://github.com/spring-projects/spring-security/issues/10822"&gt;deprecated&lt;/a&gt; the &lt;code&gt;WebSecurityConfigurerAdapter&lt;/code&gt;, as we encourage users to move towards a component-based security configuration.&lt;/p&gt;
-&lt;p&gt;To assist with the transition to this new style of configuration, we have compiled a list of common use-cases and the suggested alternatives going forward.&lt;/p&gt;
-&lt;p&gt;In the examples below we follow best practice by using the Spring Security lambda DSL and the method &lt;code&gt;HttpSecurity#authorizeHttpRequests&lt;/code&gt; to define our authorization rules. If you are new to the lambda DSL you can read about it in &lt;a href="https://spring.io/blog/2019/11/21/spring-security-lambda-dsl"&gt;this blog post&lt;/a&gt;. If you would like to learn more about why we choose to use &lt;code&gt;HttpSecurity#authorizeHttpRequests&lt;/code&gt; you can check out the &lt;a href="https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html"&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#configuring-httpsecurity" class="anchor" name="configuring-httpsecurity"&gt;&lt;/a&gt;Configuring HttpSecurity&lt;/h3&gt;
-&lt;p&gt;In Spring Security 5.4 we &lt;a href="https://github.com/spring-projects/spring-security/issues/8804"&gt;introduced&lt;/a&gt; the ability to configure &lt;code&gt;HttpSecurity&lt;/code&gt; by creating a &lt;code&gt;SecurityFilterChain&lt;/code&gt; bean.&lt;/p&gt;
-&lt;p&gt;Below is an example configuration using the &lt;code&gt;WebSecurityConfigurerAdapter&lt;/code&gt; that secures all endpoints with HTTP Basic:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter {&#xD;
-&#xD;
-    @Override&#xD;
-    protected void configure(HttpSecurity http) throws Exception {&#xD;
-        http&#xD;
-            .authorizeHttpRequests((authz) -&amp;gt; authz&#xD;
-                .anyRequest().authenticated()&#xD;
-            )&#xD;
-            .httpBasic(withDefaults());&#xD;
-    }&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Going forward, the recommended way of doing this is registering a &lt;code&gt;SecurityFilterChain&lt;/code&gt; bean:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration {&#xD;
-&#xD;
-    @Bean&#xD;
-    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {&#xD;
-        http&#xD;
-            .authorizeHttpRequests((authz) -&amp;gt; authz&#xD;
-                .anyRequest().authenticated()&#xD;
-            )&#xD;
-            .httpBasic(withDefaults());&#xD;
-        return http.build();&#xD;
-    }&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;&lt;a href="#configuring-websecurity" class="anchor" name="configuring-websecurity"&gt;&lt;/a&gt;Configuring WebSecurity&lt;/h3&gt;
-&lt;p&gt;In Spring Security 5.4 we also &lt;a href="https://github.com/spring-projects/spring-security/issues/8978"&gt;introduced&lt;/a&gt; the &lt;code&gt;WebSecurityCustomizer&lt;/code&gt;. &lt;/p&gt;
-&lt;p&gt;The &lt;code&gt;WebSecurityCustomizer&lt;/code&gt; is a callback interface that can be used to customize &lt;code&gt;WebSecurity&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Below is an example configuration using the &lt;code&gt;WebSecurityConfigurerAdapter&lt;/code&gt; that ignores requests that match &lt;code&gt;/ignore1&lt;/code&gt; or &lt;code&gt;/ignore2&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter {&#xD;
-&#xD;
-    @Override&#xD;
-    public void configure(WebSecurity web) {&#xD;
-        web.ignoring().antMatchers(&amp;quot;/ignore1&amp;quot;, &amp;quot;/ignore2&amp;quot;);&#xD;
-    }&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Going forward, the recommended way of doing this is registering a &lt;code&gt;WebSecurityCustomizer&lt;/code&gt; bean:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration {&#xD;
-&#xD;
-    @Bean&#xD;
-    public WebSecurityCustomizer webSecurityCustomizer() {&#xD;
-        return (web) -&amp;gt; web.ignoring().antMatchers(&amp;quot;/ignore1&amp;quot;, &amp;quot;/ignore2&amp;quot;);&#xD;
-    }&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;WARNING&lt;/strong&gt;: If you are configuring &lt;code&gt;WebSecurity&lt;/code&gt; to ignore requests, consider using &lt;code&gt;permitAll&lt;/code&gt; via &lt;a href="https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/config/annotation/web/builders/HttpSecurity.html#authorizeRequests%25%29"&gt;HttpSecurity#authorizeHttpRequests&lt;/a&gt; instead. See the &lt;code&gt;configure&lt;/code&gt; &lt;a href="https://docs.spring.io/spring-security/site/docs/5.7.0-M2/api/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.html#configure%25org.springframework.security.config.annotation.web.builders.WebSecurity%29"&gt;Javadoc&lt;/a&gt; for additional details.&lt;/p&gt;&lt;h3&gt;&lt;a href="#ldap-authentication" class="anchor" name="ldap-authentication"&gt;&lt;/a&gt;LDAP Authentication&lt;/h3&gt;
-&lt;p&gt;In Spring Security 5.7 we &lt;a href="https://github.com/spring-projects/spring-security/pull/10138"&gt;introduced&lt;/a&gt; the &lt;code&gt;EmbeddedLdapServerContextSourceFactoryBean&lt;/code&gt;, &lt;code&gt;LdapBindAuthenticationManagerFactory&lt;/code&gt; and &lt;code&gt;LdapPasswordComparisonAuthenticationManagerFactory&lt;/code&gt; which can be used to create an embedded LDAP Server and an &lt;code&gt;AuthenticationManager&lt;/code&gt; that performs LDAP authentication.&lt;/p&gt;
-&lt;p&gt;Below is an example configuration using &lt;code&gt;WebSecurityConfigurerAdapter&lt;/code&gt; the that creates an embedded LDAP server and an &lt;code&gt;AuthenticationManager&lt;/code&gt; that performs LDAP authentication using bind authentication: &lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@Configuration&#xD;
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter {&#xD;
-&#xD;
-    @Override&#xD;
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {&#xD;
-        auth&#xD;
-            .ldapAuthentication()&#xD;
-            .userDetailsContextMapper(new PersonContextMapper())&#xD;
-            .userDnPatterns(&amp;quot;uid={0},ou=people&amp;quot;)&#xD;
-            .contextSource()&#xD;
-            .port(0);&#xD;
-    }&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Going forward, the recommended way of doing this is using the new LDAP classes:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@Configuration&#xD;
-public class SecurityConfiguration {&#xD;
-    @Bean&#xD;
-    public EmbeddedLdapServerContextSourceFactoryBean contextSourceFactoryBean() {&#xD;
-        EmbeddedLdapServerContextSourceFactoryBean contextSourceFactoryBean =&#xD;
-            EmbeddedLdapServerContextSourceFactoryBean.fromEmbeddedLdapServer();&#xD;
-        contextSourceFactoryBean.setPort(0);&#xD;
-        return contextSourceFactoryBean;&#xD;
-    }&#xD;
-&#xD;
-    @Bean&#xD;
-    AuthenticationManager ldapAuthenticationManager(&#xD;
-            BaseLdapPathContextSource contextSource) {&#xD;
-        LdapBindAuthenticationManagerFactory factory = &#xD;
-            new LdapBindAuthenticationManagerFactory(contextSource);&#xD;
-        factory.setUserDnPatterns(&amp;quot;uid={0},ou=people&amp;quot;);&#xD;
-        factory.setUserDetailsContextMapper(new PersonContextMapper());&#xD;
-        return factory.createAuthenticationManager();&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;&lt;a href="#jdbc-authentication" class="anchor" name="jdbc-authentication"&gt;&lt;/a&gt;JDBC Authentication&lt;/h3&gt;
-&lt;p&gt;Below is an example configuration using the &lt;code&gt;WebSecurityConfigurerAdapter&lt;/code&gt; with an embedded &lt;code&gt;DataSource&lt;/code&gt; that is initialized with the default schema and has a single user:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter {&#xD;
-    @Bean&#xD;
-    public DataSource dataSource() {&#xD;
-        return new EmbeddedDatabaseBuilder()&#xD;
-            .setType(EmbeddedDatabaseType.H2)&#xD;
-            .build();&#xD;
-    }&#xD;
-&#xD;
-    @Override&#xD;
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {&#xD;
-        UserDetails user = User.withDefaultPasswordEncoder()&#xD;
-            .username(&amp;quot;user&amp;quot;)&#xD;
-            .password(&amp;quot;password&amp;quot;)&#xD;
-            .roles(&amp;quot;USER&amp;quot;)&#xD;
-            .build();&#xD;
-        auth.jdbcAuthentication()&#xD;
-            .withDefaultSchema()&#xD;
-            .dataSource(dataSource())&#xD;
-            .withUser(user);&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The recommended way of doing this is registering a &lt;code&gt;JdbcUserDetailsManager&lt;/code&gt; bean:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration {&#xD;
-    @Bean&#xD;
-    public DataSource dataSource() {&#xD;
-        return new EmbeddedDatabaseBuilder()&#xD;
-            .setType(EmbeddedDatabaseType.H2)&#xD;
-            .addScript(JdbcDaoImpl.DEFAULT_USER_SCHEMA_DDL_LOCATION)&#xD;
-            .build();&#xD;
-    }&#xD;
-&#xD;
-    @Bean&#xD;
-    public UserDetailsManager users(DataSource dataSource) {&#xD;
-        UserDetails user = User.withDefaultPasswordEncoder()&#xD;
-            .username(&amp;quot;user&amp;quot;)&#xD;
-            .password(&amp;quot;password&amp;quot;)&#xD;
-            .roles(&amp;quot;USER&amp;quot;)&#xD;
-            .build();&#xD;
-        JdbcUserDetailsManager users = new JdbcUserDetailsManager(dataSource);&#xD;
-        users.createUser(user);&#xD;
-        return users;&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: In these examples, we use the method &lt;code&gt;User.withDefaultPasswordEncoder()&lt;/code&gt; for readability. It is not intended for production and instead we recommend hashing your passwords externally. One way to do that is to use the Spring Boot CLI as described in the &lt;a href="https://docs.spring.io/spring-security/reference/features/authentication/password-storage.html#authentication-password-storage-boot-cli"&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#in-memory-authentication" class="anchor" name="in-memory-authentication"&gt;&lt;/a&gt;In-Memory Authentication&lt;/h3&gt;
-&lt;p&gt;Below is an example configuration using the &lt;code&gt;WebSecurityConfigurerAdapter&lt;/code&gt; that configures an in-memory user store with a single user:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter {&#xD;
-    @Override&#xD;
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {&#xD;
-        UserDetails user = User.withDefaultPasswordEncoder()&#xD;
-            .username(&amp;quot;user&amp;quot;)&#xD;
-            .password(&amp;quot;password&amp;quot;)&#xD;
-            .roles(&amp;quot;USER&amp;quot;)&#xD;
-            .build();&#xD;
-        auth.inMemoryAuthentication()&#xD;
-            .withUser(user);&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The recommended way of doing this is registering an &lt;code&gt;InMemoryUserDetailsManager&lt;/code&gt; bean:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration {&#xD;
-    @Bean&#xD;
-    public InMemoryUserDetailsManager userDetailsService() {&#xD;
-        UserDetails user = User.withDefaultPasswordEncoder()&#xD;
-            .username(&amp;quot;user&amp;quot;)&#xD;
-            .password(&amp;quot;password&amp;quot;)&#xD;
-            .roles(&amp;quot;USER&amp;quot;)&#xD;
-            .build();&#xD;
-        return new InMemoryUserDetailsManager(user);&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: In these examples, we use the method &lt;code&gt;User.withDefaultPasswordEncoder()&lt;/code&gt; for readability. It is not intended for production and instead we recommend hashing your passwords externally. One way to do that is to use the Spring Boot CLI as described in the &lt;a href="https://docs.spring.io/spring-security/reference/features/authentication/password-storage.html#authentication-password-storage-boot-cli"&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#global-authenticationmanager" class="anchor" name="global-authenticationmanager"&gt;&lt;/a&gt;Global AuthenticationManager&lt;/h3&gt;
-&lt;p&gt;To create an &lt;code&gt;AuthenticationManager&lt;/code&gt; that is available to the entire application you can simply register the &lt;code&gt;AuthenticationManager&lt;/code&gt; as a &lt;code&gt;@Bean&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;This type of configuration is shown above in the &lt;a href="#ldap-authentication"&gt;LDAP Authentication example&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#local-authenticationmanager" class="anchor" name="local-authenticationmanager"&gt;&lt;/a&gt;Local AuthenticationManager&lt;/h3&gt;
-&lt;p&gt;In Spring Security 5.6 we &lt;a href="https://github.com/spring-projects/spring-security/issues/10040"&gt;introduced&lt;/a&gt; the method &lt;a href="https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/config/annotation/web/builders/HttpSecurity.html#authenticationManager%25org.springframework.security.authentication.AuthenticationManager%29"&gt;HttpSecurity#authenticationManager&lt;/a&gt; that overrides the default &lt;code&gt;AuthenticationManager&lt;/code&gt; for a specific &lt;code&gt;SecurityFilterChain&lt;/code&gt;.&lt;br/&gt;Below is an example configuration that sets a custom &lt;code&gt;AuthenticationManager&lt;/code&gt; as the default:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Configuration&#xD;
-public class SecurityConfiguration {&#xD;
-&#xD;
-    @Bean&#xD;
-    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {&#xD;
-        http&#xD;
-            .authorizeHttpRequests((authz) -&amp;gt; authz&#xD;
-                .anyRequest().authenticated()&#xD;
-            )&#xD;
-            .httpBasic(withDefaults())&#xD;
-            .authenticationManager(new CustomAuthenticationManager());&#xD;
-    }&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;&lt;a href="#getting-involved" class="anchor" name="getting-involved"&gt;&lt;/a&gt;Getting Involved&lt;/h3&gt;
-&lt;p&gt;We are excited to share these updates with you and we look forward to further enhancing Spring Security with your feedback! If you are interested in contributing, you can find us on &lt;a href="https://github.com/spring-projects/spring-security"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
