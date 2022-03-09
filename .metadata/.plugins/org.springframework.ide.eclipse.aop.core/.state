@@ -3,4 +3,5 @@
 <aop-project name="ManagementProgram"/>
 <aop-project name="ch2"/>
 <aop-project name="firstSpring"/>
+<aop-project name="ch2_final"/>
 </aop-reference-model>
