@@ -17,3 +17,4 @@
 - intelliJ - import, 개발환경설정
 - mysql 데이터베이스 구축, spring sql connection
 - junit 으로 SQL 커넥트 테스트 코드 작성
+- Spring DB TDD, User 테이블 Insert Test 코드 작성
