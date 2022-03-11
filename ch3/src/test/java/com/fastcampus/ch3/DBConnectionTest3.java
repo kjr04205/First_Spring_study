@@ -23,9 +23,54 @@ public class DBConnectionTest3 {
     @Test
     public void insertUserTest() throws Exception{
         User user = new User("hzzzzy", "1234", "abc", "aaaaa@aaaa.com", new java.util.Date(), "fb", new java.util.Date());
+        deleteAll();
         int rowCnt = insertUser(user);
 
         assertTrue(rowCnt == 1);
+    }
+
+    private void deleteAll() throws Exception {
+        Connection conn = ds.getConnection();
+
+        String sql = "delete from user_info";
+
+        PreparedStatement pstmt = conn.prepareStatement(sql); // SQL Injection 공격, 성능향상
+        pstmt.executeUpdate();
+    }
+
+    @Test
+    public void selectUserTest() throws Exception{
+        deleteAll();
+        User user = new User("hzzzzy", "1234", "abc", "aaaaa@aaaa.com", new java.util.Date(), "fb", new java.util.Date());
+        int rowCnt = insertUser(user);
+
+        User user2 = selectUser("hzzzzy");
+
+        assertTrue(user2.getId().equals("hzzzzy"));
+    }
+
+    public User selectUser(String id) throws Exception{
+        Connection conn = ds.getConnection();
+
+        String sql = "select * from user_info where id=?";
+
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+        pstmt.setString(1,id);
+        ResultSet rs = pstmt.executeQuery();
+
+        if(rs.next()){
+            User user = new User();
+            user.setId(rs.getString(1));
+            user.setPwd(rs.getString(2));
+            user.setName(rs.getString(3));
+            user.setEmail(rs.getString(4));
+            user.setBirth(new Date(rs.getDate(5).getTime()));
+            user.setSns(rs.getString(6));
+            user.setReg_date(new Date(rs.getDate(7).getTime()));
+
+            return user;
+        }
+        return null;
     }
 
     // 사용자 정보를 user_info 테이블에 저장하는 메서드
