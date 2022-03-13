@@ -22,11 +22,23 @@ public class DBConnectionTest3 {
 
     @Test
     public void insertUserTest() throws Exception{
-        User user = new User("hzzzzy", "1234", "abc", "aaaaa@aaaa.com", new java.util.Date(), "fb", new java.util.Date());
+        User user = new User("asdf", "1234", "abc", "aaaaa@aaaa.com", new java.util.Date(), "fb", new java.util.Date());
         deleteAll();
         int rowCnt = insertUser(user);
 
         assertTrue(rowCnt == 1);
+    }
+
+    @Test
+    public void updateUserTest() throws Exception{
+        deleteAll();
+
+        User user = new User("asdf", "1234", "abc", "aaaaa@aaaa.com", new java.util.Date(), "fb", new java.util.Date());
+        int rowCnt = insertUser(user);
+        assertTrue(rowCnt==1);
+
+        updateUser(user);
+        assertTrue(rowCnt==1);
     }
 
     private void deleteAll() throws Exception {
@@ -41,12 +53,50 @@ public class DBConnectionTest3 {
     @Test
     public void selectUserTest() throws Exception{
         deleteAll();
-        User user = new User("hzzzzy", "1234", "abc", "aaaaa@aaaa.com", new java.util.Date(), "fb", new java.util.Date());
+        User user = new User("asdf", "1234", "abc", "aaaaa@aaaa.com", new java.util.Date(), "fb", new java.util.Date());
         int rowCnt = insertUser(user);
 
-        User user2 = selectUser("hzzzzy");
+        User user2 = selectUser("asdf");
 
-        assertTrue(user2.getId().equals("hzzzzy"));
+        assertTrue(user2.getId().equals("asdf"));
+    }
+
+    @Test
+    public void deleteUserTest() throws Exception{
+        deleteAll();
+        int rowCnt = deleteUser("asdf");
+        assertTrue(rowCnt==0);
+
+        User user = new User("asdf", "1234", "abc", "aaaaa@aaaa.com", new java.util.Date(), "fb", new java.util.Date());
+        rowCnt = insertUser(user);
+        assertTrue(rowCnt==1);
+
+        rowCnt = deleteUser(user.getId());
+        assertTrue(rowCnt==1);
+
+        assertTrue(selectUser(user.getId()) == null);
+    }
+
+    //매개변수로 받은 사용자 정보로 user.info테이블을 update 하는 메서드
+    public int updateUser(User user) throws Exception{
+        Connection conn = ds.getConnection();
+
+        String sql = "update user_info set id='hyoin' where id='asdf'";
+
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+
+        return pstmt.executeUpdate();
+    }
+
+    public int deleteUser(String id) throws Exception{
+        Connection conn = ds.getConnection();
+
+        String sql = "delete from user_info where id=?";
+
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+        pstmt.setString(1,id);
+
+        return pstmt.executeUpdate();
     }
 
     public User selectUser(String id) throws Exception{

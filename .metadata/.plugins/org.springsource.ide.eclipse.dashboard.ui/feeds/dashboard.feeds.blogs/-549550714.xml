@@ -5,7 +5,36 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-03-09T08:00:00Z</updated>
+  <updated>2022-03-10T12:00:00Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: Microsoft Azure Developer Advocate Mark Heckler</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/03/10/a-bootiful-podcast-microsoft-azure-developer-advocate-mark-heckler" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-03-10:4728</id>
+    <updated>2022-03-10T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to former fellow Spring Developer Advocate at Tanzu, and current Java Developer Advocate at Microsoft, friend, ally, and altogether amazing human being, Mark Heckler (@mkheck). &lt;/p&gt;
+&lt;iframe title="Microsoft Azure Developer Advocate Mark Heckler" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=mxpsd-11cadb5-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;btn-skin=7"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Introducing Spring Cloud Alibaba 2021.0.1.0</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/03/09/introducing-spring-cloud-alibaba-2021-0-1-0" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Spencer Gibb</name>
+    </author>
+    <id>tag:spring.io,2022-03-09:4726</id>
+    <updated>2022-03-09T15:52:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Today, we are excited to announce the availability of Spring Cloud Alibaba 2021.0.1.0!&lt;br/&gt;Spring Cloud Alibaba provides a one-stop solution for distributed application development. It contains all the components required to develop distributed applications, making it easy for you to develop your applications using Spring Cloud. With Spring Cloud Alibaba, you need only add some annotations and a small amount of configuration to connect Spring Cloud applications to the distributed solutions of Alibaba and build a distributed application system with Alibaba middleware.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; &lt;em&gt;The Spring Cloud Alibaba project is a community project maintained by Alibaba.&lt;/em&gt;&lt;br/&gt;?&lt;/p&gt;&lt;h3&gt;&lt;a href="#introducing-spring-cloud-alibaba-2021-0-1-0" class="anchor" name="introducing-spring-cloud-alibaba-2021-0-1-0"&gt;&lt;/a&gt;Introducing Spring Cloud Alibaba 2021.0.1.0&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2022/02/18/spring-cloud-2021-0-1-has-been-released"&gt;Spring Cloud 2021.0.1&lt;/a&gt; and &lt;a href="https://spring.io/blog/2022/01/20/spring-boot-2-6-3-is-now-available"&gt;Spring Boot 2.6.3&lt;/a&gt;. Major upgrades have been made to many components, including the registration configuration center, distributed messages, flow control, and others.&lt;br/&gt;?&lt;br/&gt;- &lt;a href="https://github.com/alibaba/nacos"&gt;&lt;strong&gt;Nacos&lt;/strong&gt;&lt;/a&gt;: Upgrade the Nacos client to version 1.4.2, fix the related problems in Nacos 1.4.1, and support the Nacos service discovery failure and fault tolerance.&lt;br/&gt;- &lt;a href="https://github.com/apache/rocketmq"&gt;&lt;strong&gt;RocketMQ&lt;/strong&gt;&lt;/a&gt;: Upgraded to 4.9.2, and the separate branch of RocketMQ in the previous project has been integrated into the main branch of the project. It is now released and iterated along with the major version, so that users can directly use the batch messages and asynchronous support newly supported by RocketMQ in the latest Spring Cloud Alibaba. There are many new features, such as message callback processing and the specified consumption start bit in Push mode.&lt;br/&gt;- &lt;a href="https://github.com/alibaba/Sentinel"&gt;&lt;strong&gt;Sentinel&lt;/strong&gt;&lt;/a&gt;: Upgraded to 1.8.3. In addition to fixing some problems in previous versions, it also provides flexible flow control rules capabilities for FeignClient, supports the configuration of default fuse rules for the global FeignClient, supports the configuration of specific flow control rules for a single FeignClient, and supports configuring flow control rules and other capabilities for a single method.&lt;br/&gt;- &lt;strong&gt;Spring Boot:&lt;/strong&gt; On the basis of Spring Boot 2.6.3, the application configuration method of spring.config.import is supported, which is convenient for users to configure and use the Nacos configuration center in the application in a more friendly way.&lt;br/&gt;?&lt;br/&gt;In addition to component upgrades, many problems existing in previous versions have also been fixed, further improving the stability and robustness of Spring Cloud Alibaba. For more information, see the &lt;a href=""&gt;release notes&lt;/a&gt;. For upgrade steps and usage examples of new features, see &lt;a href="https://github.com/alibaba/spring-cloud-alibaba/blob/2021.x/spring-cloud-alibaba-docs/src/main/asciidoc/sca-upgrade-guide.adoc"&gt;https://github.com/alibaba/spring-cloud-alibaba/blob/2021.x/spring-cloud-alibaba-docs/src/main/asciidoc/sca-upgrade-guide.adoc&lt;/a&gt;.&lt;br/&gt;?&lt;br/&gt;?&lt;/p&gt;&lt;h3&gt;&lt;a href="#explanation-of-the-new-version-number" class="anchor" name="explanation-of-the-new-version-number"&gt;&lt;/a&gt;Explanation of the new version number&lt;/h3&gt;
+&lt;p&gt;Since the Spring Cloud version number has undergone a round of changes from the London Underground station name to the naming method beginning with the year, we have found that users inside and outside the community are often confused about the correspondence between Spring Cloud Alibaba and Spring Cloud version numbers. To make it easier for everyone to know the corresponding Spring Cloud version when using Spring Cloud Alibaba in the future, after the discussion among the contributor members of the community at the biweekly meeting, it was decided that, starting from 2021.0.1.0, the Spring Cloud Alibaba version will correspond to the Spring Cloud version. The first three are the Spring Cloud version, and the last one is the extended version. For example, the version number of the first version of Spring Cloud Alibaba corresponding to Spring Cloud 2021.0.1 is 2021.0. 1.0, the second one is 2021.0.1.1.&lt;br/&gt;?&lt;br/&gt;?&lt;/p&gt;&lt;h3&gt;&lt;a href="#in-future" class="anchor" name="in-future"&gt;&lt;/a&gt;In future&lt;/h3&gt;
+&lt;p&gt;After more than three years of rapid development and close cooperation and exchanges with the Spring community, Spring Cloud Alibaba has released a total of &lt;a href="https://github.com/alibaba/spring-cloud-alibaba/releases"&gt;27 versions&lt;/a&gt;. The number of stars on GitHub has exceeded 21,400, the number of forks has reached 6,600, and the number of users has reached 21k, which means that Spring Cloud Alibaba has become one of the most popular microservices frameworks in China.&lt;br/&gt;In the future, Spring Cloud Alibaba will continue to align with the development and evolution of the mainstream versions of Spring Cloud. In the near future, it will support the iteration of Spring Cloud Alibaba &lt;a href="https://github.com/alibaba/spring-cloud-alibaba/tree/2021.x"&gt;2021.x&lt;/a&gt; and &lt;a href="https://github.com/alibaba/spring-cloud-alibaba/tree/2.2.x"&gt;2.2.X&lt;/a&gt;, corresponding to the two current mainstream versions of Spring Cloud 2021.x.x and Hoxton. Apart from that, the community will continue to work hard on the stability and ease of use of components, such as Nacos, Sentinel, and RocketMQ in Alibaba&amp;rsquo;s microservices solutions for Spring Cloud applications, and provide open-source Service Contracts, Label Routing, Grayscale Release, and others for Spring Cloud applications. We support efforts in microservices governance, and we welcome interested friends to join us and do some interesting things together!&lt;br/&gt;?&lt;br/&gt;?&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tips: Hilla, an amazing new web framework from Vaadin</title>
     <link rel="alternate" href="https://spring.io/blog/2022/03/09/spring-tips-hilla-an-amazing-new-web-framework-from-vaadin" />
@@ -324,275 +353,6 @@
     <updated>2022-02-23T08:00:00Z</updated>
     <content type="html">&lt;p&gt;Hi, Spring fans! In this installment I&amp;rsquo;m joined by my friend, fellow Java Champion, and Developer Advocate at &lt;a href="https://www.hivemq.com/"&gt;HiveMQ&lt;/a&gt;, &lt;a href="https://twitter.com/mgrygles"&gt;Mary Grygleski (@mgrygles)&lt;/a&gt;, and we look at easy Internet of Things (IOT) integration with HiveMQ, Spring Integration MQTT, Spring Boot, and Spring Native&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/o8MgZ1C7V6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - 22/2/22</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/02/22/this-week-in-spring-22-2-22" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-02-22:4707</id>
-    <updated>2022-02-23T06:22:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring!&lt;/em&gt; How are you? I&amp;rsquo;m doing alright, thank you! I&amp;rsquo;m really excited about this week, too, because it features a &lt;em&gt;ton&lt;/em&gt; of cool stuff. Also, it&amp;rsquo;s 22/2/22! And I posted this at 22:22! :D&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/16/spring-tips-spring-native-and-mybatis"&gt;Spring Tips: Spring Native and MyBatis&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/17/a-bootiful-podcast-java-team-luminary-sharat-chander"&gt;A Bootiful Podcast: Java team luminary Sharat Chander&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/22/announcing-listcrudrepository-friends-for-spring-data-3-0"&gt;Announcing &lt;code&gt;ListCrudRepository&lt;/code&gt; and Friends for Spring Data 3.0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/16/azure-spring-cloud-enterprise-is-now-available-in-preview"&gt;Azure Spring Cloud Enterprise is now available in preview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/mraible/status/1494118802988089348?s=12"&gt;Matt Raible on Twitter talking about getting a full JHipster application working with Spring Native :-) &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I worked with the folks behind the Flowable BPMN workflow engine and helped them get their Spring Boot integration working in &lt;strong&gt;Spring Native&lt;/strong&gt;. They wrote about the whole thing in this wonderful blog, &lt;a href="https://www.flowable.com/blog/running-flowable-with-spring-native"&gt;&lt;em&gt;Running Flowable with Spring Native&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://canerky96.medium.com/asynchronous-programming-by-using-spring-events-17d346a315de"&gt;Asynchronous Programming by Using Spring Events&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/18/spring-data-2021-2-0-m3-2021-1-2-and-2021-0-9-released"&gt;Spring Data 2021.2.0-M3, 2021.1.2, and 2021.0.9 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/17/spring-framework-5-3-16-available-now"&gt;Spring Framework 5.3.16 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/17/spring-ldap-2-3-6-and-2-4-0-m2-released"&gt;Spring LDAP 2.3.6 and 2.4.0-M2 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/21/spring-security-5-5-5-and-5-6-2-released"&gt;Spring Security 5.5.5 and 5.6.2 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/21/spring-security-5-7-0-m2-released"&gt;Spring Security 5.7.0-M2 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter"&gt;Spring Security without the WebSecurityConfigurerAdapter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/springone/status/1493624116603080705?s=21"&gt;SpringOne 2022 will be in San Francisco, CA, this December! Register now and we&amp;rsquo;ll see you there!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://tanzucommunityedition.io/posts/tanzu-community-edition-0.10-available/"&gt;Tanzu Community Edition 0.10 is Now Available&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://hilla.dev/"&gt;A modern web framework for Java Hilla&lt;/a&gt; This one looks kinda interesting! It seems like an elegant framework from the folks at Vaadin that lets you build rich web frontends and rich data-driven backends with Typescript and Spring Boot. I&amp;rsquo;ll check it out!&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/ThomasVitale/awesome-spring"&gt;ThomasVitale/awesome-spring: A curated list of awesome books, tutorials, courses, and resources for the Spring framework ecosystem.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support"&gt;VMware Strengthens Spring Runtime Offering with Extended Support&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/VMware/status/1494360084029136906"&gt; Prometheus &amp;amp; Grafana Monitoring Stack on TKGS workload cluster in vSphere with?Tanzu &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/VMware/status/1496134821768314887"&gt;Lots of exciting new features with the latest @VMwareTanzu Kubernetes Grid (TKG) 1.5 release! &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/02/16/sig-node-ci-subproject-celebrates/"&gt;Blog: SIG Node CI Subproject Celebrates Two Years of Test Improvements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/02/17/dockershim-faq/"&gt;Blog: Updated: Dockershim Removal FAQ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Announcing ListCrudRepository &amp; Friends for Spring Data 3.0</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/02/22/announcing-listcrudrepository-friends-for-spring-data-3-0" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Jens Schauder</name>
-    </author>
-    <id>tag:spring.io,2022-02-14:4696</id>
-    <updated>2022-02-22T09:09:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;The Spring Data &lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html"&gt;&lt;code&gt;CrudRepository&lt;/code&gt;&lt;/a&gt; has various methods that return multiple instances of the entity managed by the repository.
-It does so by using &lt;a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html"&gt;&lt;code&gt;Iterable&lt;/code&gt;&lt;/a&gt; and not &lt;code&gt;List&lt;/code&gt;, as one might expect.
-In many cases, that is of no consequence, since you typically want to iterate over the result anyway.
-However, you might occasionally prefer a &lt;code&gt;List&lt;/code&gt;. In these cases, &lt;code&gt;Iterable&lt;/code&gt; is annoying.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;I will write more about why that choice was made in the first place and how you can deal with it as long as you are on Spring Data 2.x. However, let me get the good news out first:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="repositories-returning-lists"&gt;&lt;a class="anchor" href="#repositories-returning-lists"&gt;&lt;/a&gt;Repositories returning Lists&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Data 3.0.0 now offers a &lt;code&gt;ListCrudRepository&lt;/code&gt; in the latest snapshot releases,
-which returns a &lt;code&gt;List&lt;/code&gt; where &lt;code&gt;CrudRepository&lt;/code&gt; returns an &lt;code&gt;Iterable&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="exampleblock"&gt;
-&lt;div class="title"&gt;Example 1. CrudRepository versus ListCrudRepository&lt;/div&gt;
-&lt;div class="content"&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code data-lang="java"&gt;@NoRepositoryBean
-public interface CrudRepository&amp;lt;T, ID&amp;gt; extends Repository&amp;lt;T, ID&amp;gt; {
-
-	&amp;lt;S extends T&amp;gt; S save(S entity);
-
-	&amp;lt;S extends T&amp;gt; Iterable&amp;lt;S&amp;gt; saveAll(Iterable&amp;lt;S&amp;gt; entities);
-
-	Optional&amp;lt;T&amp;gt; findById(ID id);
-
-	boolean existsById(ID id);
-
-	Iterable&amp;lt;T&amp;gt; findAll();
-
-	Iterable&amp;lt;T&amp;gt; findAllById(Iterable&amp;lt;ID&amp;gt; ids);
-
-	long count();
-
-	void deleteById(ID id);
-
-	void delete(T entity);
-
-	void deleteAllById(Iterable&amp;lt;? extends ID&amp;gt; ids);
-
-	void deleteAll(Iterable&amp;lt;? extends T&amp;gt; entities);
-
-	void deleteAll();
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code data-lang="java"&gt;@NoRepositoryBean
-public interface ListCrudRepository&amp;lt;T, ID&amp;gt; extends CrudRepository&amp;lt;T, ID&amp;gt; {
-
-	&amp;lt;S extends T&amp;gt; List&amp;lt;S&amp;gt; saveAll(Iterable&amp;lt;S&amp;gt; entities);
-
-	List&amp;lt;T&amp;gt; findAll();
-
-	List&amp;lt;T&amp;gt; findAllById(Iterable&amp;lt;ID&amp;gt; ids);
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="splitting-the-sorting-repositories"&gt;&lt;a class="anchor" href="#splitting-the-sorting-repositories"&gt;&lt;/a&gt;Splitting the Sorting Repositories&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The popular &lt;code&gt;PagingAndSortingRepository&lt;/code&gt; used to extend from &lt;code&gt;CrudRepository&lt;/code&gt;, but it no longer does.
-This lets you combine it with either &lt;code&gt;CrudRepository&lt;/code&gt; or &lt;code&gt;ListCrudRepository&lt;/code&gt; or a base interface of your own creation.
-This means you now have to explicitly extend from a CRUD fragment, even when you already extend from &lt;code&gt;PagingAndSortingRepository&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="exampleblock"&gt;
-&lt;div class="title"&gt;Example 2. Paging and sorting repository&amp;#8201;&amp;#8212;&amp;#8201;Version 2.x&lt;/div&gt;
-&lt;div class="content"&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code data-lang="java"&gt;public interface PersonRepository&amp;lt;Person, Long&amp;gt; extends PagingAndSortingRepository&amp;lt;Person, Long&amp;gt; {}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="exampleblock"&gt;
-&lt;div class="title"&gt;Example 3. Paging and sorting repository&amp;#8201;&amp;#8212;&amp;#8201;Version 3.x&lt;/div&gt;
-&lt;div class="content"&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code data-lang="java"&gt;public interface PersonRepository&amp;lt;Person, Long&amp;gt; extends PagingAndSortingRepository&amp;lt;Person, Long&amp;gt;, ListCrudRepository&amp;lt;Person, Long&amp;gt; {}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;There are also other interfaces that return &lt;code&gt;Iterable&amp;lt;T&amp;gt;&lt;/code&gt; and that now got a companion interface that returns &lt;code&gt;List&amp;lt;T&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class="tableblock frame-all grid-all stretch"&gt;
-&lt;colgroup&gt;
-&lt;col style="width: 50%;"&gt;
-&lt;col style="width: 50%;"&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class="tableblock halign-left valign-top"&gt;Fragment Interface returning &lt;code&gt;Iterable&lt;/code&gt;&lt;/th&gt;
-&lt;th class="tableblock halign-left valign-top"&gt;New fragment interface returning &lt;code&gt;List&lt;/code&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;QuerydslPredicateExecutor&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;ListQuerydslPredicateExecutor&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;QueryByExampleExecutor&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;ListQueryByExampleExecutor&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Also, similar to &lt;code&gt;PagingAndSortingRepository&lt;/code&gt;, other sorting repository interfaces used to extend their respective CRUD variant but no longer do so.&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class="tableblock frame-all grid-all stretch"&gt;
-&lt;colgroup&gt;
-&lt;col style="width: 50%;"&gt;
-&lt;col style="width: 50%;"&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class="tableblock halign-left valign-top"&gt;Sorting fragment Interface&lt;/th&gt;
-&lt;th class="tableblock halign-left valign-top"&gt;CRUD repository it no longer extends&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;ReactiveSortingRepository&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/reactive/ReactiveCrudRepository.html"&gt;&lt;code&gt;ReactiveCrudRepository&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;CoroutineSortingRepository&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;CoroutineCrudRepository&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;Rx3JavaSortingRepository&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/reactive/RxJava3SortingRepository.html"&gt;&lt;code&gt;Rx3JavaCrudRepository&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This means that, when you use any of these interfaces as the basis for your Spring Data repositories, you now need to additionally extend the respective CRUD repository
-(assuming you are actually interested in using the CRUD functionality of it).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="what-about-2-x"&gt;&lt;a class="anchor" href="#what-about-2-x"&gt;&lt;/a&gt;What about 2.x?&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;If you are not ready to jump onto 3.0.0 snapshots, you still have all the &lt;a href="https://stackoverflow.com/a/67413334/66686"&gt;existing options&lt;/a&gt;
-to avoid dealing with &lt;code&gt;Iterable&lt;/code&gt; as a return value.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="olist arabic"&gt;
-&lt;ol class="arabic"&gt;
-&lt;li&gt;
-&lt;p&gt;You need not extend &lt;code&gt;CrudRepository&lt;/code&gt;.
-You can instead use &lt;code&gt;Repository&lt;/code&gt;, which does not have any methods.
-Now you can add only the methods that you actually want with the return types you want.
-If they match those in &lt;code&gt;CrudRepository&lt;/code&gt; but return &lt;code&gt;Collection&lt;/code&gt; or &lt;code&gt;List&lt;/code&gt; instead of &lt;code&gt;Iterable&lt;/code&gt; Spring Data, takes care of the conversion for you.
-Also, in most cases, you probably do not really need &lt;code&gt;deleteAll&lt;/code&gt; in production, right?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you want all methods of &lt;code&gt;CrudRepository&lt;/code&gt; but want &lt;code&gt;Iterable&lt;/code&gt; to be replaced by something else, you may do so by extending &lt;code&gt;CrudRepository&lt;/code&gt; and overwriting the methods that you want to have changed.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Instead of doing this in every repository interface that you declare, you can create you own base repository interface.
-For this approach, use the same approach as above but annotate it with &lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/NoRepositoryBean.html"&gt;&lt;code&gt;@NoRepositoryBean&lt;/code&gt;&lt;/a&gt;
- so that Spring Data does not try to create an implementation for it.
-Your actual repository interfaces can now extend from this interface.
-The popular &lt;a href="https://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaRepository.html"&gt;&lt;code&gt;JpaRepository&lt;/code&gt;&lt;/a&gt; is one such interface.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;In the same way as above, you might use &lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/util/Streamable.html"&gt;&lt;code&gt;Streamable&lt;/code&gt;&lt;/a&gt; as the return type,
-which is an &lt;code&gt;Iterable&lt;/code&gt; but offers &lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/util/Streamable.html#stream--"&gt;direct conversion methods to &lt;code&gt;Stream&lt;/code&gt;&lt;/a&gt;,
-&lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/util/Streamable.html#toList--"&gt;&lt;code&gt;List&lt;/code&gt;&lt;/a&gt;, and
-&lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/util/Streamable.html#toSet--"&gt;&lt;code&gt;Set&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you do not want to touch the repositories, you can use &lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/util/Streamable.html#of-java.lang.Iterable-"&gt;&lt;code&gt;Streamable&lt;/code&gt; to convert from &lt;code&gt;Iterable&lt;/code&gt;&lt;/a&gt; to an interface of &lt;code&gt;Stream&lt;/code&gt;, &lt;code&gt;List&lt;/code&gt;, or &lt;code&gt;Set&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="why-iterable-in-the-first-place"&gt;&lt;a class="anchor" href="#why-iterable-in-the-first-place"&gt;&lt;/a&gt;Why Iterable in the first place?&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="olist arabic"&gt;
-&lt;ol class="arabic"&gt;
-&lt;li&gt;
-&lt;p&gt;The methods of &lt;code&gt;CrudRepository&lt;/code&gt; need to get implemented by every Spring Data implementation.
-Therefore, it is not only an API for users of Spring Data but also an SPI for those that provide a Spring Data module.
-Also, such a module might not want to populate a full list before returning it but, instead, return an &lt;code&gt;Iterable&lt;/code&gt; quickly while still loading and processing data.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If &lt;code&gt;CrudRepository&lt;/code&gt; returns a &lt;code&gt;List&lt;/code&gt;, you could not overwrite its methods to return a &lt;code&gt;Streamable&lt;/code&gt;, &lt;code&gt;Set&lt;/code&gt;, &lt;code&gt;Collection&lt;/code&gt;, or &lt;code&gt;Iterable&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;Streamable&lt;/code&gt; would have been a great return type, since it combines flexibility with usability.
-Unfortunately it would force a Spring interface into your domain model, which many consider a no go or at least a code smell.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Also, once &lt;code&gt;Iterable&lt;/code&gt; was out there, it became hard or even impossible to change the API without breaking existing code.
-So finding a solution with better usability while limiting the breakage caused by the change took some time.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We hope you like the solution, and we are confident that you will let us know what you think.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
