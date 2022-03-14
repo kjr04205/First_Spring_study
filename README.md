@@ -19,3 +19,4 @@
 - junit 으로 SQL 커넥트 테스트 코드 작성
 - Spring DB TDD, User 테이블 Insert Test 코드 작성
 - @Test (DB Controller)
+- 게시판 목록 만들기, 페이징 구현 -> TDD 개발 검증
