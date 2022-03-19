@@ -1,22 +1,6 @@
-# Spring Study<br>
-- AWS에 jdk, Tomcat 설치 및 세팅
-- 외부컴퓨터에서 접속가능하도록 방화벽 세팅
-- 원격 프로그램 AWS 배포 후 실행
-- HTTP 웹 통신
-- Spring MVC
-- 서블릿, JSP
-- @RequestParam, @ModelAttribute
-- @RequestMapping
-- JSP 회원가입 Form data -> Spring 컨트롤 변환
-- 페이지 쿠키관리 - 아이디 저장
-- 세션관리 - 로그인
-- 예외처리
-- DispatcherServlet / servlet-content.xml beans 등록
-- String -> Date 변환
-- 회원가입 입력값 수동검증, 자동검증
-- intelliJ - import, 개발환경설정
-- mysql 데이터베이스 구축, spring sql connection
-- junit 으로 SQL 커넥트 테스트 코드 작성
-- Spring DB TDD, User 테이블 Insert Test 코드 작성
-- @Test (DB Controller)
-- 게시판 목록 만들기, 페이징 구현 -> TDD 개발 검증
+# Java Spring
+- 실습환경 : STS, intelliJ, AWS
+- WAS : Apache Tomcat 9.0
+- Framework : Spring 5, mybatis 
+- DB : Mysql
+

@@ -38,6 +38,9 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.project.Service.EmployeeService"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.project.DTO.Employee"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.project.DTO.Employee"/>
+    <fullyQualifiedTypeName name="com.project.DTO.PageHandler"/>
 </qualifiedTypeNameHistroy>
