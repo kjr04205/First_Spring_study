@@ -20,6 +20,7 @@
         <li><a href=""><i class="fas fa-search small"></i></a></li>
     </ul>
 </div>
+
 <div style="text-align:center">
     <h2>게시물 읽기</h2>
     <form action="" id="form">
@@ -36,6 +37,15 @@
     $(document).ready(function(){
         $('#listBtn').on("click",function(){
            location.href="<c:url value='/board/list'/>?page=${page}&pageSize=${pageSize}";
+        });
+
+        $('#removeBtn').on("click",function(){
+            if(!confirm("정말 삭제하시겠습니까?")) return;
+
+            let form = $('#form');
+            form.attr("action", "<c:url value='/board/remove'/>?page=${page}&pageSize=${pageSize}");
+            form.attr("method","post");
+            form.submit();
         });
     });
 </script>
