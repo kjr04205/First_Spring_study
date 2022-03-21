@@ -131,6 +131,20 @@ public class BoardDaoimplTest {
     }
 
     @Test
+    public void selectTest2() throws Exception {
+        boardDao.deleteAll();
+        assertTrue(boardDao.count()==0);
+
+        BoardDto boardDto = new BoardDto("no title", "no content", "hyoin");
+        assertTrue(boardDao.insert(boardDto)==1);
+
+        Integer bno = boardDao.selectAll().get(0).getBno();
+        boardDto.setBno(bno);
+        BoardDto boardDto2 = boardDao.select(bno);
+        assertTrue(boardDto.equals(boardDto2));
+    }
+
+    @Test
     public void selectPageTest() throws Exception {
         boardDao.deleteAll();
 
