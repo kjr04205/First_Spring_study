@@ -29,7 +29,7 @@
     }
 </script>
 <div style="text-align:center">
-    <table border="1">
+    <table border="1" style="width:80%; margin:0 auto; margin-top:50px;">
         <tr>
             <th>번호</th>
             <th>제목</th>

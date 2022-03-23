@@ -27,6 +27,15 @@ public class BoardDaoimplTest {
     }
 
     @Test
+    public void insertTestData2() throws Exception{
+        boardDao.deleteAll();
+        for(int i=1; i<=120; i++){
+            BoardDto boardDto = new BoardDto("title"+i, "no content", "hyoin");
+            boardDao.insert(boardDto);
+        }
+    }
+
+    @Test
     public void countTest() throws Exception {
         boardDao.deleteAll();
         assertTrue(boardDao.count()==0);
@@ -93,6 +102,22 @@ public class BoardDaoimplTest {
 
         boardDao.deleteAll();
         boardDto = new BoardDto("no title", "no content", "asdf");
+        assertTrue(boardDao.insert(boardDto)==1);
+        assertTrue(boardDao.count()==1);
+    }
+
+    @Test
+    public void insertTest2() throws Exception {
+        boardDao.deleteAll();
+        BoardDto boardDto = new BoardDto("no title", "no content", "hyoin");
+        assertTrue(boardDao.insert(boardDto)==1);
+
+        boardDto = new BoardDto("no title", "no content", "hyoin");
+        assertTrue(boardDao.insert(boardDto)==1);
+        assertTrue(boardDao.count()==2);
+
+        boardDao.deleteAll();
+        boardDto = new BoardDto("no title", "no content", "hyoin");
         assertTrue(boardDao.insert(boardDto)==1);
         assertTrue(boardDao.count()==1);
     }
