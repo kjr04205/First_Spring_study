@@ -27,9 +27,22 @@
     if(msg=="DELETE_ERR"){
         alert("삭제에 실패하였습니다.");
     }
+    if(msg=="WRT_OK"){
+        alert("등록되었습니다.");
+    }
+    if(msg=="WRT_ERR"){
+        alert("등록에 실패하였습니다.");
+    }
+    if(msg=="MOD_OK"){
+        alert("수정에 성공하였습니다.");
+    }
+    if(msg=="MOD_ERR"){
+        alert("수정에 실패하였습니다.");
+    }
 </script>
 <div style="text-align:center">
-    <table border="1">
+    <button type="button" id="writeBtn" onclick="location.href='<c:url value="/board/write"/>'">글쓰기</button>
+    <table border="1" style="width:80%; margin:0 auto; margin-top:50px;">
         <tr>
             <th>번호</th>
             <th>제목</th>
