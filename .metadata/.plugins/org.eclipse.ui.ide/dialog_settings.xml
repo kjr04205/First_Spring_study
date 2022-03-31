@@ -134,6 +134,7 @@
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\User\Documents\GitHub\Management"/>
 			<item value="C:\Users\User\Desktop\Management\Management"/>
 			<item value="C:\Users\User\Downloads\Management-main\Management-main"/>
 			<item value=""/>
