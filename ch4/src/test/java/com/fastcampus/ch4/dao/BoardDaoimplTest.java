@@ -21,12 +21,17 @@ public class BoardDaoimplTest {
     public void searchSelectPage() throws Exception{
         boardDao.deleteAll();
         for (int i = 1; i <= 20; i++) {
-            BoardDto boardDto = new BoardDto("title"+i, "asdfsdgdf", "asdf");
+            BoardDto boardDto = new BoardDto("title"+i, "asdfsdgdf", "asdf"+i);
             boardDao.insert(boardDto);
         }
 
         SearchCondition sc = new SearchCondition(1, 10, "title2", "T");
         List<BoardDto> list = boardDao.searchSelectPage(sc);
+        System.out.println("list = " + list);
+        assertTrue(list.size()==2);
+
+        sc = new SearchCondition(1, 10, "asdf2", "W");
+        list = boardDao.searchSelectPage(sc);
         System.out.println("list = " + list);
         assertTrue(list.size()==2);
     }
